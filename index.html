@@ -207,12 +207,13 @@ td.second{text-decoration:underline; text-underline-offset:3px; text-decoration-
 
 /* ---------- bibtex ---------- */
 .bibwrap{position:relative}
-pre{margin:0; background:#1C2027; color:#E6E9EF; border-radius:14px; padding:1.25rem 1.35rem;
+pre{margin:0; background:var(--alt); color:var(--ink); border:1px solid var(--line);
+  border-radius:14px; padding:1.25rem 1.35rem;
   overflow-x:auto; font-family:var(--mono); font-size:.79rem; line-height:1.7}
 .copy{position:absolute; top:.7rem; right:.7rem; padding:.32rem .75rem; font-family:var(--body);
   font-size:.75rem; font-weight:500; border-radius:7px; cursor:pointer;
-  background:rgba(255,255,255,.1); color:#C8CEDA; border:1px solid rgba(255,255,255,.18)}
-.copy:hover{background:rgba(255,255,255,.18); color:#fff}
+  background:var(--card); color:var(--muted); border:1px solid var(--line)}
+.copy:hover{background:#fff; color:var(--strong); border-color:var(--rule)}
 
 footer{padding-block:2.6rem 3.2rem; background:var(--alt); border-top:1px solid var(--line)}
 footer p{font-size:.8rem; color:var(--faint); line-height:1.75}
